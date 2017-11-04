@@ -11,7 +11,7 @@ public final class ProductService {
   private final ProductDao productDao;
 
   public ProductService() {
-    this.productDao = new ProductDao();;
+    this.productDao = new ProductDao();
   }
 
   public List<Product> getProducts() {
